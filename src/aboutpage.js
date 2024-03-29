@@ -1,3 +1,5 @@
+import imageLink from '../about.jpg';
+
 function aboutpage(){
     const div = document.createElement("div");
     const content = document.querySelector("#content");
@@ -6,7 +8,7 @@ function aboutpage(){
     h1.textContent = "About"
 
     const img = document.createElement("img");
-    img.setAttribute("src", "../about.jpg");
+    img.setAttribute("src", imageLink);
     img.setAttribute("alt", "about");
     img.style.width = "50vh";
     img.style.height = "auto";

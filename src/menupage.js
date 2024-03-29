@@ -1,3 +1,5 @@
+import imageLink from '../samosas.jpg';
+
 function menupage(){
     const div = document.createElement("div");
     const content = document.querySelector("#content");
@@ -6,7 +8,7 @@ function menupage(){
     h1.textContent = "Menu"
 
     const img = document.createElement("img");
-    img.setAttribute("src", "../samosas.jpg");
+    img.setAttribute("src", imageLink);
     img.setAttribute("alt", "samosas");
     img.style.width = "50vh";
     img.style.height = "auto";

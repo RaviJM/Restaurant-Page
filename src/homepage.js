@@ -1,3 +1,5 @@
+import imageLink from '../restaurant_image_homepage.png';
+
 function homepage(){
     const div = document.createElement("div");
     const content = document.querySelector("#content");
@@ -6,7 +8,7 @@ function homepage(){
     h1.textContent = "Home"
 
     const img = document.createElement("img");
-    img.setAttribute("src", "../restaurant_image_homepage.png");
+    img.setAttribute("src", imageLink);
     img.setAttribute("alt", "cool restaurant image");
     img.style.width = "50vh";
     img.style.height = "auto";
